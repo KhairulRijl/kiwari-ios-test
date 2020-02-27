@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,12 @@
 		31966EB1240625E700AF41E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31966EAF240625E700AF41E5 /* Main.storyboard */; };
 		31966EB3240625EB00AF41E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31966EB2240625EB00AF41E5 /* Assets.xcassets */; };
 		31966EB6240625EB00AF41E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31966EB4240625EB00AF41E5 /* LaunchScreen.storyboard */; };
+		31F4D1162406310E001C72F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31F4D1152406310E001C72F6 /* GoogleService-Info.plist */; };
+		31F4D11824063752001C72F6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F4D11724063752001C72F6 /* SignInViewController.swift */; };
+		31F4D11A24075665001C72F6 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F4D11924075665001C72F6 /* ChatViewController.swift */; };
+		31F4D11C24076D4A001C72F6 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F4D11B24076D4A001C72F6 /* UserTableViewController.swift */; };
+		31F4D11E24076F73001C72F6 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F4D11D24076F73001C72F6 /* Users.swift */; };
+		A11FBDA69568F73F5871FBCA /* Pods_kiwari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914E54658F0BA4024EE443B4 /* Pods_kiwari.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,14 @@
 		31966EB2240625EB00AF41E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31966EB5240625EB00AF41E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31966EB7240625EB00AF41E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31F4D1152406310E001C72F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31F4D11724063752001C72F6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		31F4D11924075665001C72F6 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		31F4D11B24076D4A001C72F6 /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
+		31F4D11D24076F73001C72F6 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		6942755226D27EA427DB4FA0 /* Pods-kiwari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwari.debug.xcconfig"; path = "Target Support Files/Pods-kiwari/Pods-kiwari.debug.xcconfig"; sourceTree = "<group>"; };
+		914E54658F0BA4024EE443B4 /* Pods_kiwari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kiwari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95296563715AFF16EE773C2 /* Pods-kiwari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kiwari.release.xcconfig"; path = "Target Support Files/Pods-kiwari/Pods-kiwari.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11FBDA69568F73F5871FBCA /* Pods_kiwari.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				31966EA8240625E700AF41E5 /* kiwari */,
 				31966EA7240625E700AF41E5 /* Products */,
+				4F46EFFB56C0FF8AA114C10A /* Pods */,
+				9F04136E95C700CB400D151A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +80,30 @@
 				31966EB2240625EB00AF41E5 /* Assets.xcassets */,
 				31966EB4240625EB00AF41E5 /* LaunchScreen.storyboard */,
 				31966EB7240625EB00AF41E5 /* Info.plist */,
+				31F4D1152406310E001C72F6 /* GoogleService-Info.plist */,
+				31F4D11724063752001C72F6 /* SignInViewController.swift */,
+				31F4D11924075665001C72F6 /* ChatViewController.swift */,
+				31F4D11B24076D4A001C72F6 /* UserTableViewController.swift */,
+				31F4D11D24076F73001C72F6 /* Users.swift */,
 			);
 			path = kiwari;
+			sourceTree = "<group>";
+		};
+		4F46EFFB56C0FF8AA114C10A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6942755226D27EA427DB4FA0 /* Pods-kiwari.debug.xcconfig */,
+				B95296563715AFF16EE773C2 /* Pods-kiwari.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9F04136E95C700CB400D151A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				914E54658F0BA4024EE443B4 /* Pods_kiwari.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31966EBA240625EB00AF41E5 /* Build configuration list for PBXNativeTarget "kiwari" */;
 			buildPhases = (
+				55DC77E0FD5F9BE5083A7620 /* [CP] Check Pods Manifest.lock */,
 				31966EA2240625E700AF41E5 /* Sources */,
 				31966EA3240625E700AF41E5 /* Frameworks */,
 				31966EA4240625E700AF41E5 /* Resources */,
+				317A94569B259D2B28A273B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31966EB6240625EB00AF41E5 /* LaunchScreen.storyboard in Resources */,
+				31F4D1162406310E001C72F6 /* GoogleService-Info.plist in Resources */,
 				31966EB3240625EB00AF41E5 /* Assets.xcassets in Resources */,
 				31966EB1240625E700AF41E5 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +175,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		317A94569B259D2B28A273B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kiwari/Pods-kiwari-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kiwari/Pods-kiwari-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kiwari/Pods-kiwari-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55DC77E0FD5F9BE5083A7620 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kiwari-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31966EA2240625E700AF41E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31F4D11824063752001C72F6 /* SignInViewController.swift in Sources */,
 				31966EAE240625E700AF41E5 /* ViewController.swift in Sources */,
 				31966EAA240625E700AF41E5 /* AppDelegate.swift in Sources */,
+				31F4D11A24075665001C72F6 /* ChatViewController.swift in Sources */,
+				31F4D11C24076D4A001C72F6 /* UserTableViewController.swift in Sources */,
 				31966EAC240625E700AF41E5 /* SceneDelegate.swift in Sources */,
+				31F4D11E24076F73001C72F6 /* Users.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +370,7 @@
 		};
 		31966EBB240625EB00AF41E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6942755226D27EA427DB4FA0 /* Pods-kiwari.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +389,7 @@
 		};
 		31966EBC240625EB00AF41E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95296563715AFF16EE773C2 /* Pods-kiwari.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
